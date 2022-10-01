@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
-import Layout from '../../components/layout/Layout';
-import Bio from '../../components/about/Bio';
+import Layout from '@/components/layout/Layout';
+import Bio from '@/components/about/Bio';
 
 const About: React.FC = () => {
   return (
