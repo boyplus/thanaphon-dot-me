@@ -19,9 +19,9 @@ const Home: React.FC = () => {
         <div className='talk'>
           <h3>🎙 Talk to me about</h3>
           <ul>
-            <li>Algorithms and full-stack development</li>
             <li>KPOP (boy groups)</li>
-            <li>Books</li>
+            <li>Algorithms</li>
+            <li>Web development</li>
           </ul>
         </div>
       </div>
