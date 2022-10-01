@@ -9,24 +9,27 @@
   filter: drop-shadow(11px 10px 10px rgb(207, 207, 207));
 }
 
-.content {
+.profile {
   padding-left: 30px;
   height: 333px;
 }
 
-.experiences {
-  margin-top: 20px;
+.content{
+  margin-top: 5px;
 }
 
-.talk {
+.content-list-container {
+  margin-top: 5px;
+}
+
+.content-container{
   margin-top: 15px;
 }
 
-.content ul {
-  margin-top: 5px;
+.content-container ul {
   margin-left: 20px;
 }
 
-.content ul li{
+.content-container ul li{
   margin-top: 5px;
 }
