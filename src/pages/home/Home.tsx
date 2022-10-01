@@ -1,22 +1,6 @@
 import React from 'react';
 import './home.css';
-
-const contents = [
-  {
-    header: '🔥 Experiences (in brief)', items: [
-      'Sofrware Engineer (full-stack) intern at Agoda (Bangkok)',
-      'Freelance full-stack web developer @ KKP Cargo&Logistics',
-      'Content creator of GDSC KMUTT (Google Developer Student Club)'
-    ]
-  },
-  {
-    header: '🎙 Talk to me about', items: [
-      'KPOP (boy groups)',
-      'Algorithms',
-      'Web development'
-    ]
-  }
-];
+import contents from './contents';
 
 const Home: React.FC = () => {
 
@@ -31,7 +15,13 @@ const Home: React.FC = () => {
 
   return (
     <main className='home'>
-      <img src="/images/profile.jpg" width="250px" height="333px" className='profile-pic'></img>
+      <img
+        src="/images/profile-2.jpeg"
+        width="250px"
+        height="358px"
+        className='profile-pic'
+        alt="Profile picture"
+      />
       <div className="profile">
         <h1 className='blue'>Thanaphon Sombunkaeo (Boy)</h1>
         <p>"A person who loves problem solving and full-stack development."</p>

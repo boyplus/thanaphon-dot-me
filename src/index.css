@@ -26,6 +26,10 @@ body {
   color: #322f7b;
 }
 
+.grey {
+  color: grey;
+}
+
 ul {
   margin-block-start: 0;
   margin-block-end: 0;

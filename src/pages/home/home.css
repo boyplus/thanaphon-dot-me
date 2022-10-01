@@ -4,14 +4,13 @@
   justify-content: center;
   align-items: center;
 }
-.profile-pic{
+.home .profile-pic{
   border-radius: 5px;
   filter: drop-shadow(11px 10px 10px rgb(207, 207, 207));
 }
 
 .profile {
   padding-left: 30px;
-  height: 333px;
 }
 
 .content{
@@ -19,7 +18,7 @@
 }
 
 .content-list-container {
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 .content-container{
