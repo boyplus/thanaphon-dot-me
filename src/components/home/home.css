@@ -1,0 +1,14 @@
+.home {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-pic{
+
+}
+
+.content {
+  padding-left: 30px;
+  height: 333px;
+}

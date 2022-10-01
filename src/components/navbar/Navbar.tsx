@@ -1,23 +1,21 @@
 import React, { Fragment } from 'react';
+import './navbar.css'
+import NavbarItem, { INavbarItem } from './NavbarItem';
 
-interface NavbarItem {
-  label: string;
-  link: string;
-  page: string;
-}
-
-const items: NavbarItem[] = [
-  { label: 'Home', link: '', page: 'home' },
-  { label: 'About', link: '', page: 'about' },
-  { label: 'Project', link: '', page: 'project' },
-  { label: 'Contact', link: '', page: 'contact' },
+const items: INavbarItem[] = [
+  { label: 'Home', link: '/', page: 'home' },
+  { label: 'About', link: '/about', page: 'about' },
+  { label: 'Project', link: '/project', page: 'project' },
+  { label: 'Contact', link: '/contact', page: 'contact' },
 ];
 
 const Navbar: React.FC = () => {
   return (
-    <Fragment>
-      {items.map(item => (<div>{item.label}</div>))}
-    </Fragment>
+    <nav>
+      <ul>
+        {items.map(item => <NavbarItem key={item.page} {...item} />)}
+      </ul>
+    </nav>
   )
 }
 
