@@ -5,16 +5,13 @@ nav {
   background-color: black;
 }
 
-ul {
+nav ul {
   display: flex;
   margin: 5px 0;
   list-style-type: none;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  padding-inline-start: 0;
 }
 
-ul li {
+nav ul li {
   width: 80px;
   margin: 0 5px;
   display: flex;
@@ -24,7 +21,7 @@ ul li {
 }
 
 @media (max-width: 480px) {
-  ul li {
+  nav ul li {
     width: 60px;
   }
 }
