@@ -6,9 +6,14 @@ export interface IExperience {
   description: string;
 }
 
-const Experience: React.FC = () => {
+const Experience: React.FC<IExperience> = ({ title, period, description }) => {
   return (
-    <div className='experience'></div>
+    <div className='experience'>
+      <h3>{title}</h3>
+      <p className='grey'>{period}</p>
+      <div style={{ height: '5px' }}></div>
+      <p>{description}</p>
+    </div>
   );
 }
 
