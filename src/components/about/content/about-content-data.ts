@@ -33,7 +33,19 @@ const awards: IAboutContent[] = [
   {
     title: 'Programming Competition Thailand National',
     period: '2019',
-    description: `🥇Gold medal (1st place)`,
+    description: `🥇 Gold medal (1st place) - Competitive in programming which includes problems-solving, algorithms, and data structures with team of 2 members.`,
+  },
+
+  {
+    title: 'Thailand Olympaid in Informatics (TOI 14th)',
+    period: '2019',
+    description: `🥉 Bronze medal (28th place) - The competition of representative from computer olympiad camp. The competition is focused on competitive programming which required experience on Algorithms, and Data structures.`,
+  },
+
+  {
+    title: 'Thailand Olympaid in Informatics (TOI 13th)',
+    period: '2019',
+    description: `🥉 Bronze medal (42th place)`,
   },
 ];
 
