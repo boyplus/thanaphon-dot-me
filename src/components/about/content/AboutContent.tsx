@@ -1,14 +1,16 @@
 import React from 'react';
 
-export interface IExperience {
+import './about-content-list.css';
+
+export interface IAboutContent {
   title: string;
   period: string;
   description: string;
 }
 
-const Experience: React.FC<IExperience> = ({ title, period, description }) => {
+const AboutContent: React.FC<IAboutContent> = ({ title, period, description }) => {
   return (
-    <div className='experience'>
+    <div className='about-content'>
       <h3>{title}</h3>
       <p className='grey'>{period}</p>
       <div style={{ height: '5px' }}></div>
@@ -17,4 +19,4 @@ const Experience: React.FC<IExperience> = ({ title, period, description }) => {
   );
 }
 
-export default Experience;
+export default AboutContent;
