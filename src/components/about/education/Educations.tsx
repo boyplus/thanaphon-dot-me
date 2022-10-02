@@ -6,11 +6,11 @@ import './educations.css';
 
 const Educations: React.FC = () => {
 
-  const educationList = educations.map(education => <Education {...education} />)
+  const educationList = educations.map(education => <Education key={education.place} {...education} />)
 
   return (
     <div className='educations-container'>
-      <h2>Educations</h2>
+      <h2>📖 Educations</h2>
       <div className='education-list'>
         {educationList}
       </div>
