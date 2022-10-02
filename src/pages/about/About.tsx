@@ -1,16 +1,15 @@
 import React from 'react';
 import './about.css';
 import Layout from '@/components/layout/Layout';
-import Bio from '@/components/about/Bio';
+import Bio from '@/components/about/bio/Bio';
+import Educations from '@/components/about/education/Educations';
 
 const About: React.FC = () => {
   return (
     <Layout>
       <div className='about'>
         <Bio />
-        <div>
-          <h2>Educations</h2>
-        </div>
+        <Educations />
       </div>
     </Layout>
   )
