@@ -1,0 +1,10 @@
+.experiences-container {
+  margin-top: 30px;
+}
+
+.experience-list {
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

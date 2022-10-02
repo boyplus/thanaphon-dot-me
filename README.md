@@ -16,3 +16,7 @@ $ yarn dev
 $ yarn build
 $ yarn preview
 ```
+
+## Authors
+
+- [@boyplus](https://github.com/boyplus)
