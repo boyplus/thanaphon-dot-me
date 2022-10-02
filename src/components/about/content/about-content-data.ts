@@ -33,7 +33,7 @@ const awards: IAboutContent[] = [
   {
     title: 'Programming Competition Thailand National',
     period: '2019',
-    description: `🥇 Gold medal (1st place) - Competitive in programming which includes problems-solving, algorithms, and data structures with team of 2 members.`,
+    description: `🥇 Gold medal (1st place) - Competitive programming which includes problem-solving, algorithms, and data structures with team of 2 members.`,
   },
 
   {

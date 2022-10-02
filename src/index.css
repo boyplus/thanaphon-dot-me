@@ -35,3 +35,11 @@ ul {
   margin-block-end: 0;
   padding-inline-start: 0;
 }
+
+.space {
+  letter-spacing: 2px;
+}
+
+.big-text{
+  font-size: 3rem;
+}
