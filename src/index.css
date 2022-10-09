@@ -47,3 +47,7 @@ ul {
 .align-center {
   text-align: center;
 }
+
+.fit-content{
+  width: fit-content;
+}
