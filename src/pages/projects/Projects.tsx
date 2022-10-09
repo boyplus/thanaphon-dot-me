@@ -1,4 +1,5 @@
 import React from 'react';
+import Layout from '@/components/layout/Layout';
 import ProjectOverviewCard from '@/components/project/ProjectOverviewCard';
 
 import projectsOverview from '@/components/project/project-overview-data';
@@ -10,12 +11,14 @@ const Projects: React.FC = () => {
     return <ProjectOverviewCard key={project.title} {...project} />
   })
   return (
-    <main className='projects'>
-      <h1 className='blue header big-text'>Projects</h1>
-      <div className='project-list-container'>
-        {projectOverviewList}
+    <Layout>
+      <div className='projects'>
+        <h1 className='blue header big-text'>Projects</h1>
+        <div className='project-list-container'>
+          {projectOverviewList}
+        </div>
       </div>
-    </main>
+    </Layout>
   )
 }
 

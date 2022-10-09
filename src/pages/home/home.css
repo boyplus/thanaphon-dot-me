@@ -49,11 +49,16 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .home .profile-pic {
+    width: 175px;
+  }
+}
+
 
 @media only screen and (max-width: 375px) {
   .home .profile-pic {
     width: 150px;
-    height: auto;
   }
   .home h1{
     font-size: 1.5rem;
