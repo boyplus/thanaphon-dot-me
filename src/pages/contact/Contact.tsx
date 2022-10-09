@@ -25,7 +25,9 @@ const Contact: React.FC = () => {
     return (
       <a href={contact.link} target="_blank">
         <li className='contact-list-item'>
-          <FontAwesomeIcon icon={contact.icon} size='2x'></FontAwesomeIcon>
+          <div className='icon-container'>
+            <FontAwesomeIcon icon={contact.icon} size='2x'></FontAwesomeIcon>
+          </div>
           <p>{contact.label}</p>
         </li>
       </a>)

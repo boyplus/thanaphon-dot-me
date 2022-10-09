@@ -28,3 +28,7 @@
   border-radius: 10px;
   gap: 20px;
 }
+
+.icon-container {
+  width: 40px;
+}
