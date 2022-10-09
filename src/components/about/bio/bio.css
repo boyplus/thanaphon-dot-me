@@ -10,15 +10,34 @@
   margin-left: 30px;
 }
 
-.position{
+.position {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-top: 5px;
 }
 
-.line{
+.line {
   width: 7px;
   height: 30px;
   background-color: grey;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .bio{
+    flex-wrap: wrap;
+  }
+  .profile-pic-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .short-bio {
+    margin-left: 0px;
+  }
+  .name {
+    text-align: center;
+    margin-top: 10px;
+  }
 }
