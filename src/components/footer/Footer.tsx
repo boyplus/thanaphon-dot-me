@@ -4,7 +4,7 @@ import './footer.css';
 const Footer: React.FC = () => {
   return (
     <footer>
-      <p>All right reserved © by Thanaphon Sombunkaeo</p>
+      <p style={{ textAlign: 'center' }}>All right reserved © by Thanaphon Sombunkaeo</p>
     </footer>
   )
 }

@@ -1,0 +1,26 @@
+.projects {
+  padding: 3% 5% 0 5%;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+}
+
+.project-list-container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 950px) {
+  .project-list-container {
+    grid-template-columns: auto auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .project-list-container {
+    grid-template-columns: auto;
+  }
+}

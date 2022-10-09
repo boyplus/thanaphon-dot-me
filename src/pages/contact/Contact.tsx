@@ -1,10 +1,9 @@
 import React from 'react';
-
-import Layout from '@/components/layout/Layout';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faMediumM, IconDefinition } from '@fortawesome/free-brands-svg-icons';
-
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
+import Layout from '@/components/layout/Layout';
 
 import './contact.css'
 
@@ -18,15 +17,18 @@ const contacts: IContact[] = [
   { icon: faEnvelope, label: 'thanaphon.sbk@gmail.com', link: 'mailto: thanaphon.sbk@gmail.com' },
   { icon: faGithub, label: '@boyplus', link: 'https://github.com/boyplus' },
   { icon: faLinkedin, label: 'Thanaphon Sombunkaeo', link: 'https://www.linkedin.com/in/thanaphon-sombunkaeo-755a881b0/' },
-  { icon: faMediumM, label: 'Thanaphon Sombunkaeo', link: 'https://github.com/boyplus' },
+  { icon: faMediumM, label: 'Thanaphon Sombunkaeo', link: 'https://medium.com/@_thanaphon' },
 ];
 
 const Contact: React.FC = () => {
   const contactList = contacts.map(contact => {
-    return (<li className='contact-list-item'>
-      <FontAwesomeIcon icon={contact.icon} size='2x'></FontAwesomeIcon>
-      <p>{contact.label}</p>
-    </li>)
+    return (
+      <a href={contact.link} target="_blank">
+        <li className='contact-list-item'>
+          <FontAwesomeIcon icon={contact.icon} size='2x'></FontAwesomeIcon>
+          <p>{contact.label}</p>
+        </li>
+      </a>)
   })
   return (
     <Layout>
