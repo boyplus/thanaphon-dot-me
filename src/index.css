@@ -48,6 +48,10 @@ ul {
   text-align: center;
 }
 
+.align-end {
+  text-align: end;
+}
+
 .fit-content{
   width: fit-content;
 }

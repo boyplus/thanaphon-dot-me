@@ -1,3 +1,9 @@
+.project-overview-card-container {
+  text-decoration: none;
+  color: inherit;
+  
+}
+
 .project-overview-card {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -5,9 +11,10 @@
   padding: 25px 20px 15px 20px;
   margin-bottom: 20px;
   border-radius: 3px;
-  /* display: flex;
+  min-height: 190px;
+  display: flex;
   flex-direction: column;
-  justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .project-overview-card:hover {
