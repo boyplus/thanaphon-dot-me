@@ -5,10 +5,10 @@ import contents from './contents';
 const Home: React.FC = () => {
 
   const contentList = contents.map(content => {
-    return <div className='content-container'>
+    return <div className='content-container' key={content.header}>
       <h3>{content.header}</h3>
       <ul>
-        {content.items.map(item => <li>{item}</li>)}
+        {content.items.map(item => <li key={item}>{item}</li>)}
       </ul>
     </div>
   });
@@ -23,8 +23,8 @@ const Home: React.FC = () => {
         alt="Profile picture"
       />
       <div className="profile">
-        <h1 className='blue'>Thanaphon Sombunkaeo (Boy)</h1>
-        <p>"A person who loves problem solving and full-stack development."</p>
+        <h1 className='blue align-center'>Thanaphon Sombunkaeo (Boy)</h1>
+        <p className='align-center'>"A person who loves problem solving and full-stack development."</p>
         <div className='content-list-container'>
           {contentList}
         </div>

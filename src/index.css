@@ -43,3 +43,7 @@ ul {
 .big-text{
   font-size: 3rem;
 }
+
+.align-center {
+  text-align: center;
+}
