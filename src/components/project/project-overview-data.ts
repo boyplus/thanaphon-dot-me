@@ -5,7 +5,7 @@ const projectsOverview: IProjectOverview[] = [
     title: 'Easy bartering',
     period: 'August 2022 - Present',
     description:
-      'Mobile application for multi-party bartering platform (computer science capstone project).',
+      'Mobile application for multi-party bartering platform (Computer science capstone project).',
     link: 'easy-bartering',
   },
   {
