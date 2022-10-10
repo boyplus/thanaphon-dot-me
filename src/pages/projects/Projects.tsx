@@ -7,6 +7,7 @@ import projectsOverview from '@/components/project/project-overview-data';
 import './projects.css';
 
 const Projects: React.FC = () => {
+  console.log('inside projects')
   const projectOverviewList = projectsOverview.map(project => {
     return <ProjectOverviewCard key={project.title} {...project} />
   })
