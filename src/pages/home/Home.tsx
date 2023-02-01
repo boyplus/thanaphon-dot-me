@@ -16,9 +16,9 @@ const Home: React.FC = () => {
   return (
     <main className='home'>
       <img
-        src="/images/profile-2.jpeg"
+        src="/images/profile-3.jpg"
         width="250px"
-        height="358px"
+        height="355px"
         className='profile-pic'
         alt="Profile picture"
       />
