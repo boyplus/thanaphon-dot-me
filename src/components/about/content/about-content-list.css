@@ -1,10 +1,30 @@
 .about-content-list-container {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .about-content-list {
   padding: 10px 30px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
+}
+
+.bullets {
+  margin-left: 15px;
+}
+
+.bullets li{
+  margin-bottom: 8px;
+}
+
+.skills-container{
+  display: flex;
+  gap: 12px;
+}
+
+.skill-card {
+  background-color: #DCDCDC;
+  border-radius: 10px;
+  padding: 3px 10px;
+  font-size: 14px;
 }
