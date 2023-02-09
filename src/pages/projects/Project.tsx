@@ -67,7 +67,7 @@ const Project: React.FC = () => {
               <h2 style={{ paddingTop: "20px" }} className="blue">
                 Technology Stack
               </h2>
-              <ul>
+              <ul style={{ marginLeft: '15px' }}>
                 {data.stacks.map((el) => {
                   return (
                     <li key={el} style={{ marginTop: "8px" }}>
