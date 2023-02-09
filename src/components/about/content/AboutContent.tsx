@@ -6,16 +6,33 @@ export interface IAboutContent {
   title: string;
   period: string;
   description: string;
+  bullets?: string[];
+  skills?: string[];
 }
 
-const AboutContent: React.FC<IAboutContent> = ({ title, period, description }) => {
+const AboutContent: React.FC<IAboutContent> = ({ title, period, description, bullets, skills }) => {
+  const renderBullets = () => {
+    return bullets?.map((bullet) => <li key={bullet} style={{ marginBottom: '8px' }}>{bullet}</li>);
+  }
+
+  const renderSkills = () => {
+    return skills?.map((skill) => <div className='skill-card'>{skill}</div>);
+  }
+
   return (
-    <div className='about-content'>
+    <>
       <h3>{title}</h3>
       <p className='grey'>{period}</p>
       <div style={{ height: '5px' }}></div>
       <p>{description}</p>
-    </div>
+      <ul className='bullets'>
+        {renderBullets()}
+      </ul>
+
+      <div className='skills-container'>
+        {renderSkills()}
+      </div>
+    </>
   );
 }
 
