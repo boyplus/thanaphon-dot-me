@@ -14,8 +14,6 @@ const Project: React.FC = () => {
   const [showModal, setShowModal] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  console.log(projectName)
-
   const renderProject = () => {
     if (!projectName || !data) return <></>;
     return (
@@ -129,9 +127,7 @@ const Project: React.FC = () => {
   };
   return (
     <Fragment>
-      <Layout>
-        <ProjectLayout>{renderProject()}</ProjectLayout>
-      </Layout>
+      <ProjectLayout>{renderProject()}</ProjectLayout>
     </Fragment>
   );
 };
