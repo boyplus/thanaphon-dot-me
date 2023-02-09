@@ -2,13 +2,15 @@ import { IProjectOverview } from './ProjectOverviewCard';
 
 const projectsOverview: IProjectOverview[] = [
   {
-    title: 'Easy bartering',
-    period: 'August 2022 - Present',
+    name: 'easy-bartering',
+    title: 'Easy Bartering',
+    period: 'August 2022 - December 2022',
     description:
-      'Mobile application for multi-party bartering platform (Computer science capstone project).',
+      'Mobile application for finding and performing multi-party bartering to solve the problem of 1-1 trading which is a traditional way of item exchanging.',
     link: 'easy-bartering',
   },
   {
+    name: 'kkp-cargo',
     title: 'KKP Cargo & Logistic',
     period: 'December 2020 - April 2021',
     description:
@@ -16,6 +18,7 @@ const projectsOverview: IProjectOverview[] = [
     link: 'kkp-cargo',
   },
   {
+    name: 'bts-live-view',
     title: 'BTS live view count',
     period: '2019',
     description:
@@ -23,6 +26,7 @@ const projectsOverview: IProjectOverview[] = [
     link: 'bts-live-view',
   },
   {
+    name: 'eduroom',
     title: 'Eduroom (Online learning platform)',
     period: '2020',
     description:
@@ -30,6 +34,7 @@ const projectsOverview: IProjectOverview[] = [
     link: 'eduroom',
   },
   {
+    name: 'dekcare',
     title: 'Dek Care',
     period: '2021',
     description:
@@ -37,6 +42,7 @@ const projectsOverview: IProjectOverview[] = [
     link: 'dek-care',
   },
   {
+    name: 'setthi',
     title: 'Setthi',
     period: '2021',
     description:

@@ -16,7 +16,7 @@ const AboutContent: React.FC<IAboutContent> = ({ title, period, description, bul
   }
 
   const renderSkills = () => {
-    return skills?.map((skill) => <div className='skill-card'>{skill}</div>);
+    return skills?.map((skill) => <div className='skill-card' key={skill}>{skill}</div>);
   }
 
   return (

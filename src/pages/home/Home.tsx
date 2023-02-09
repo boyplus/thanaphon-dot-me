@@ -6,7 +6,7 @@ const Home: React.FC = () => {
 
   const contentList = contents.map(content => {
     return <div className='content-container' key={content.header}>
-      <h3>{content.header}</h3>
+      <h2>{content.header}</h2>
       <ul>
         {content.items.map(item => <li key={item}>{item}</li>)}
       </ul>

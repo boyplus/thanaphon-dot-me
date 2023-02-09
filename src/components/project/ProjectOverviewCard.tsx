@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import './project-card.css';
 
 export interface IProjectOverview {
+  name: string;
   title: string;
   period: string;
   description: string;
