@@ -19,7 +19,6 @@ const projectInfos: ProjectInfo[] = [
     title: 'Easy Bartering - Mobile application for multi-party bartering',
     description:
       'Easy bartering is a mobile application for finding and performing multi-party bartering to solve the problem of 1-1 trading which is a traditional way of item exchanging. Instead of finding someone who has something you want and wants something you have, this application will find and select the best group of people that can exchange things together.',
-    github: 'https://github.com/CS20-SIT/Eduroom',
     stacks: [
       'Front-end: Flutter',
       'Back-end: NodeJS (Nest) with typscript',
