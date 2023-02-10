@@ -15,6 +15,24 @@ interface ProjectInfo {
 
 const projectInfos: ProjectInfo[] = [
   {
+    name: 'easy-bartering',
+    title: 'Easy Bartering - Mobile application for multi-party bartering',
+    description:
+      'Easy bartering is a mobile application for finding and performing multi-party bartering to solve the problem of 1-1 trading which is a traditional way of item exchanging. Instead of finding someone who has something you want and wants something you have, this application will find and select the best group of people that can exchange things together.',
+    stacks: [
+      'Front-end: Flutter',
+      'Back-end: NodeJS (Nest) with typscript',
+      'Graph database: Neo4j',
+      'Document database: MongoDB',
+      'Data structure store: Redis',
+      'Version Control: Github',
+      'Infrastructure: Google Cloud Run, Google Cloud Storage',
+    ],
+    home: '/images/project/easy-bartering/home.png',
+    images: ['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png'],
+    isMobile: false,
+  },
+  {
     name: 'eduroom',
     title: 'Eduroom (Online Learning Platform)',
     description:
@@ -22,43 +40,16 @@ const projectInfos: ProjectInfo[] = [
     link: 'https://eduroom.cscms.me',
     github: 'https://github.com/CS20-SIT/Eduroom',
     stacks: [
-      'Front-End Framework: NextJS',
-      'Back-End Framework: NodeJS (Express)',
+      'Front-end: NextJS',
+      'Back-end: NodeJS (Express)',
       'Realtime Chat System: SocketIO',
-      'CSS Framework: Material UI',
+      'CSS Library: Material UI',
       'Database: PostgresSQL',
       'Version Control: Github',
       'Host: Google Cloud Platform',
     ],
     home: '/images/project/eduroom/home.png',
     images: ['1.png', '2.png', '3.png', '4.png', '5.png'],
-    isMobile: false,
-  },
-
-  {
-    name: 'csb',
-    title: 'Computer Science Bank project (CSB)',
-    description:
-      'Banking system on web application that includes features Authentication, Account Management, Transaction. My responsibilities of this project is location feature of banking system. User can see the location of bank and ATM, route from user location to bank. I also provide the top three nearest banks to user location. Admin of bank can edit detail of bank and ATM.',
-    stacks: [
-      'Front-End Framework: VueJS',
-      'Back-End Framework: Java Servlet',
-      'CSS Framework: Vuetify',
-      'Database: Microsoft SQl',
-      'Version Control: Github',
-      'Host: Google Cloud',
-    ],
-    home: '/images/project/csb/home.png',
-    images: [
-      '1.png',
-      '2.png',
-      '3.png',
-      '4.png',
-      '5.png',
-      '6.png',
-      '7.png',
-      '8.png',
-    ],
     isMobile: false,
   },
 
@@ -70,33 +61,14 @@ const projectInfos: ProjectInfo[] = [
     link: 'https://bts-live-view.herokuapp.com',
     github: 'https://github.com/boyplus/bts-live-view-count',
     stacks: [
-      'Front-End Framework: ReactJS',
-      'Back-End Framework: NodeJS (Express)',
+      'Front-end: ReactJS',
+      'Back-end: NodeJS (Express)',
       'Database: MongoDB',
       'Version Control: Github',
       'Host: Heroku',
     ],
     home: '/images/project/bts-live-view/home.png',
     images: ['1.png', '2.png', '3.png', '4.png', '5.png'],
-    isMobile: false,
-  },
-
-  {
-    name: 'mentor-score',
-    title: 'Mentor Score',
-    description:
-      'Web application to keep track score of first year student in Introduction to Programming course. Mentor can add new room and student into the room. Owner of the room can also add other mentor in that room to help them to manage that room. Mentor can also increase, decrease score of student.',
-    link: 'https://mentor-score.herokuapp.com/',
-    github: 'https://github.com/boyplus/scores',
-    stacks: [
-      'Front-End Framework: ReactJS',
-      'Back-End Framework: NodeJS (Express)',
-      'Database: MongoDB',
-      'Version Control: Github',
-      'Host: Heroku',
-    ],
-    home: '/images/project/mentor-score/home.png',
-    images: ['1.png', '2.png', '3.png', '4.png', '5.png', '6.png'],
     isMobile: false,
   },
 
@@ -108,7 +80,7 @@ const projectInfos: ProjectInfo[] = [
     link: 'https://www.kkpcargo.com/',
     stacks: [
       'Front-End Framework: NextJS',
-      'Back-End Framework: NodeJS (Express)',
+      'Back-end: NodeJS (Express)',
       'Database: MySQL',
       'Version Control: Github',
       'Host: Azure',
@@ -126,8 +98,8 @@ const projectInfos: ProjectInfo[] = [
       'Mobile application which is a term project of Integrated Project II in Computer Science course. This application is for parents who would like to consult with doctor and communicate with other parents.',
     github: 'https://github.com/int-pro-2/dekcare-frontend',
     stacks: [
-      'Front-End Framework: Flutter & Dart',
-      'Back-End Framework: NodeJS (Express)',
+      'Front-end: Flutter',
+      'Back-end: NodeJS (Express)',
       'Database: MySQL',
       'Version Control: Github',
       'Host: Google Cloud',
@@ -146,8 +118,8 @@ const projectInfos: ProjectInfo[] = [
       'Setthi is an expense manage mobile application. This application can help user to manage their daily expense. My resposibility of this project is to design application and do frontend part by using flutter and dart.',
     github: 'https://github.com/int-pro-2/dekcare-frontend',
     stacks: [
-      'Front-End Framework: Flutter & Dart',
-      'Back-End Framework: NodeJS (Express)',
+      'Front-end: Flutter',
+      'Back-end: NodeJS (Express)',
       'Database: MySQL',
       'Version Control: Github',
       'Host: Google Cloud',
