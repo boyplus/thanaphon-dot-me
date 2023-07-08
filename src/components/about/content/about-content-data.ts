@@ -2,6 +2,17 @@ import { IAboutContent } from './AboutContent';
 
 const workExperiences: IAboutContent[] = [
   {
+    title: 'Associate Software Engineer at Agoda (Bangkok)',
+    period: 'June 2023 - Present',
+    description: ``,
+    bullets: [
+      'Working in tech team to deal with technical debt in legacy .NET framework project',
+      'Migrate from WCF service to call API gateway, the end goal is to move from running on windows to vm.',
+      'Implement APIs in YSC gateway, and Supply Management API using c# and scala.',
+    ],
+    skills: ['Scala', 'ASP.NET Core', 'Software Migration'],
+  },
+  {
     title: 'Software Engineer intern at Agoda (Bangkok)',
     period: 'June 2022 - Present',
     description: ``,
