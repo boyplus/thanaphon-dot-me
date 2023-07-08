@@ -3,9 +3,9 @@ import { IEducation } from './Education';
 const educations: IEducation[] = [
   {
     place: `King Mongkut's University of Technology Thonburi`,
-    period: '2019 - Present',
+    period: 'Aug 2019 - May 2023',
     description: 'B.Sc. Computer Science (English Program)',
-    gpax: '3.89',
+    gpax: '3.87',
     transcript:
       'https://drive.google.com/file/d/1ZEeIDKKv4GwrSGSz_eUwE1PRz8O5jZKh/view?usp=sharing',
   },

@@ -6,11 +6,11 @@ const Bio: React.FC = () => {
     <div className='bio'>
       <div className='profile-pic-container'>
         <img
-          src="/images/profile-square-2.jpeg"
-          width="200px"
-          height="202px"
+          src="/images/profile-square.jpeg"
           className='profile-pic'
           alt="Profile picture"
+          width="220px"
+          height="220px"
         />
       </div>
 
@@ -18,10 +18,10 @@ const Bio: React.FC = () => {
         <h1 className='blue fit-content name'>Thanaphon Sombunkaeo (Boy)</h1>
         <div className='position'>
           <div className='line'></div>
-          <h3 className='grey'>Full-stack software developer</h3>
+          <h3 className='grey'>Associate Software Engineer</h3>
         </div>
         <p style={{ marginTop: '15px' }}>
-          I'm a senior computer science student at SIT KMUTT (Thailand). I love problem solving especially in algorithms and data structures. I am also interested in full-stack development.
+          I'm currently working as an associate software engineer at Agoda. I love problem solving especially in algorithms and data structures. I am also interested in software development.
         </p>
       </div>
     </div>
