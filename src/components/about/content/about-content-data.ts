@@ -6,9 +6,10 @@ const workExperiences: IAboutContent[] = [
     period: 'June 2023 - Present',
     description: ``,
     bullets: [
-      'Working in tech team to deal with technical debt in legacy .NET framework project',
-      'Migrate from WCF service to call API gateway, the end goal is to move from running on windows to vm.',
-      'Implement APIs in YSC gateway, and Supply Management API using c# and scala.',
+      'Working in tech team to deal with technical debt in legacy .NET framework project - Migrate WCF services to API gateway, it helps other teams to move their features to microservices and the end goal is to move from running on windows to Private Cloud.',
+      'Propose an efficient solution to migrate CMS from using WCF to CMS API client, it helps developers to do the migration with low effort. Implement APIs in YSC gateway, and Supply Management API using c# and Scala.',
+      'Migrate services that still use old database tables which will be decommission to the new tables/endpoints.',
+      'Contribute to improving selenium test stability by testing both A and B variant. It helps team to detect the situation that contributor do not add new test to support new behavior from A/B testing.',
     ],
     skills: ['Scala', 'ASP.NET Core', 'Software Migration'],
   },
