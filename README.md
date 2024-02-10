@@ -4,17 +4,17 @@ This webiste will let you know about my biography, education, experiences, skill
 
 ## Installation
 
-`$ pnpm install`
+`$ bun install`
 
 ## Running the app
 
 ```
 # development
-$ pnpm dev
+$ bun dev
 
 # preview your production locally
-$ pnpm build
-$ pnpm preview
+$ pnpm run build
+$ pnpm run preview
 ```
 
 ## Authors
