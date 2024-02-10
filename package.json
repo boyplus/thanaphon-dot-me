@@ -11,20 +11,23 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-markdown": "^8.0.4",
-    "react-router-dom": "^6.4.1",
-    "vite-tsconfig-paths": "^3.5.1"
+    "react-markdown": "^9.0.1",
+    "react-router-dom": "^6.22.0",
+    "vite-tsconfig-paths": "^4.3.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@types/node": "^18.7.23",
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
-    "@vitejs/plugin-react": "^2.1.0",
-    "typescript": "^4.6.4",
-    "vite": "^4.0.4"
+    "@types/node": "^20.11.17",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.1"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
