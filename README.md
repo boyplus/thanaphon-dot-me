@@ -13,8 +13,11 @@ This webiste will let you know about my biography, education, experiences, skill
 $ bun dev
 
 # preview your production locally
-$ pnpm run build
-$ pnpm run preview
+$ bun run preview
+
+# build for production
+$ bun run build
+
 ```
 
 ## Authors
