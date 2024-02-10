@@ -4,17 +4,17 @@ This webiste will let you know about my biography, education, experiences, skill
 
 ## Installation
 
-`$ yarn`
+`$ pnpm install`
 
 ## Running the app
 
 ```
 # development
-$ yarn dev
+$ pnpm dev
 
 # preview your production locally
-$ yarn build
-$ yarn preview
+$ pnpm build
+$ pnpm preview
 ```
 
 ## Authors
