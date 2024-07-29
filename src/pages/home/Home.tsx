@@ -24,7 +24,7 @@ const Home: React.FC = () => {
       />
       <div className="profile">
         <h1 className='blue align-center'>Thanaphon Sombunkaeo (Boy)</h1>
-        <p className='align-center'>"A person who loves problem solving and full-stack development."</p>
+        <p className='align-center'>"A person who loves problem solving and software development."</p>
         <div className='content-list-container'>
           {contentList}
         </div>

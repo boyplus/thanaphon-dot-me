@@ -14,7 +14,7 @@ const contents: Content[] = [
   },
   {
     header: '🎙 Talk to me about',
-    items: ['KPOP (boy groups)', 'Algorithms', 'Web development'],
+    items: ['KPOP (boy groups)', 'Algorithms', 'Software development'],
   },
 ];
 
