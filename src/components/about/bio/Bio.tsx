@@ -18,10 +18,10 @@ const Bio: React.FC = () => {
         <h1 className='blue fit-content name'>Thanaphon Sombunkaeo (Boy)</h1>
         <div className='position'>
           <div className='line'></div>
-          <h3 className='grey'>Associate Software Engineer</h3>
+          <h3 className='grey'>Software Engineer</h3>
         </div>
         <p style={{ marginTop: '15px' }}>
-          I'm currently working as an associate software engineer at Agoda. I love problem solving especially in algorithms and data structures. I am also interested in software development.
+          I'm currently working as a software engineer at Agoda. I love problem solving especially in algorithms and data structures. I am also interested in software development.
         </p>
       </div>
     </div>
