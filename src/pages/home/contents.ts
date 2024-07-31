@@ -7,7 +7,7 @@ const contents: Content[] = [
   {
     header: '🔥 Experiences (in brief)',
     items: [
-      'Associate Software Engineer at Agoda (Bangkok)',
+      'Software Engineer at Agoda (Bangkok)',
       'Sofrware Engineer Intern at Agoda (Bangkok)',
       'Content creator of GDSC KMUTT (Google Developer Student Club)',
     ],
